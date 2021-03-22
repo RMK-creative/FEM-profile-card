@@ -21,12 +21,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(185, 75%, 39%);
 }
 
 .card{
     background-color: white;
-    /*max-width: 20.3rem;*/
-    min-width: 20.3rem;
+    max-width: 20.3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,30 +36,86 @@ body {
 }
 
 .card-top {
-        background-image: url(images/bg-pattern-card.svg);
-        background-size: cover;
-        position: relative;
-        width: 100%;
-        height: 9.3rem;
-        overflow: hidden;
-    }
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 9.3rem;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
 
 .victor {
     border-radius: 50%;
-    border: solid 5px white;
-    height: 96px;
-    width: 96px;
+    border: solid 5.5px white;
     position: relative;
-    top: -3rem;
-
+    top: -1rem;
 }
 
 .card-middle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    position: relative;
+    top: -2.4rem;
 }
 
-footer {
-    display: none;
+h1 {
+    font-size: 1.125rem;
+    color: #2E3349;
+    margin: 1rem 0 0.5rem;
 }
+
+h2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+}
+
+h3 {
+    font-size: 1.125rem;
+    color: #2E3349;
+}
+
+p {
+    font-size: 0.625rem;
+    color:hsl(0, 0%, 59%);
+    letter-spacing: 2px;
+}
+
+.profile-age {
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+
+hr {
+    border-style: none;
+    border-top: 1px solid #E8E9EC;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.card-bottom {
+    display: inline;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding: 1.8rem 3rem;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stat-social-followers,
+.stat-social-likes,
+.stat-social-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0 1.3rem;
+}
+
