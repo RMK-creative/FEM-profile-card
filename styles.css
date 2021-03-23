@@ -18,6 +18,7 @@ body {
 .card-wrapper {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: hsl(185, 75%, 39%);
@@ -30,7 +31,6 @@ body {
     flex-direction: column;
     border-radius: 15px;
     box-shadow: 5px 15px 20px hsl(185, 76%, 32%);
-    
 }
 
 .card-top {
@@ -115,7 +115,7 @@ a {
     color: #2E3349;
 }
 
-footer {
+.attribution {
     position: absolute;
     bottom: 0;
     font-size: 0.8rem;
