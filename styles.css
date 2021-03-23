@@ -25,27 +25,22 @@ body {
 
 .card{
     background-color: white;
-    max-width: 20.3rem;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
     box-shadow: 5px 15px 20px hsl(185, 76%, 32%);
+    
 }
 
 .card-top {
-    background-image: url(images/bg-pattern-card.svg);
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    min-height: 9.3rem;
     overflow: hidden;
-    border-radius: 15px 15px 0 0;
 }
 
 .victor {
     border-radius: 50%;
-    border: solid 5px white;
-    background-color: white;
+    border: solid 5px #fff;
+    background-color: #fff;
 }
 
 .card-middle {
@@ -96,7 +91,7 @@ hr {
     position: relative;
     justify-content: center;
     width: 100%;
-    padding: 1.8rem 3rem;
+    padding: 1.8rem;
 }
 
 .stats {
@@ -125,5 +120,5 @@ footer {
     bottom: 0;
     font-size: 0.8rem;
     color: #2E3349;
-    }
+}
 
