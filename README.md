@@ -26,11 +26,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Here is a screenshot of my solution](./screenshots/FEM_profile-card)
+![](./screenshots/RMK_fem_profile-card.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://rmk-fem-profile-card.netlify.app/)
+- Live Site URL: [](https://rmk-fem-profile-card.netlify.app/)
 
 ## My process
 
