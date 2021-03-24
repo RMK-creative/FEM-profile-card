@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Here is a screenshot of my solution](./screenshots/RMK_fem_profile-card.png)
+![Here is a screenshot of my solution](./screenshots/RMK_fem-profile-card.png)
 
 ### Links
 
