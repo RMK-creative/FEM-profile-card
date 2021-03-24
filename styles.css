@@ -27,6 +27,7 @@ body {
 
 .card-wrapper {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,13 +36,14 @@ body {
 }
 
 .card {
-    min-width: 20.4rem;
+    max-width: 21.8rem;
     background-color: white;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
     box-shadow: 5px 15px 20px hsl(185, 76%, 32%);
+    margin: 1rem;
 }
 
 .card-top {
@@ -99,7 +101,6 @@ hr {
 
 .card-bottom {
     display: inline;
-    position: relative;
     justify-content: center;
     width: 100%;
     padding: 1.2rem;
@@ -117,7 +118,6 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     align-items: center;
     padding: 0 1.5rem;
 }
