@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    min-height: 100vh;
     background-color: hsl(185, 75%, 39%);
     background-image: 
     url(images/bg-pattern-top.svg),
@@ -30,9 +31,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .card{
+    min-width: 20.4rem;
     background-color: white;
     overflow: hidden;
     display: flex;
@@ -54,7 +57,7 @@ body {
 .card-middle {
     text-align: center;
     position: relative;
-    top: -3.5rem;
+    top: -3.6rem;
 }
 
 h1 {
@@ -91,7 +94,7 @@ hr {
     border-style: none;
     border-top: 1px solid #E8E9EC;
     width: 100%;
-    margin-top: -1.5rem;
+    margin-top: -1.6rem;
 }
 
 .card-bottom {
@@ -124,9 +127,8 @@ a {
 }
 
 .attribution {
-    position: absolute;
-    bottom: 0;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: #2E3349;
+    margin-top: 1rem;
 }
 
