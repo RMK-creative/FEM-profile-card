@@ -12,8 +12,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    min-height: 100vh;
+    min-width: 100vw;
     background-color: hsl(185, 75%, 39%);
     background-image: 
     url(images/bg-pattern-top.svg),
@@ -22,21 +21,19 @@ body {
     bottom 34vh right 52vw,
     top 48vh left 50vw;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .card-wrapper {
     min-height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .card {
-    max-width: 21.8rem;
+    max-width: 100%;
     background-color: white;
     overflow: hidden;
     display: flex;
@@ -48,6 +45,7 @@ body {
 
 .card-top {
     overflow: hidden;
+    background-size: contain;
 }
 
 .victor {
@@ -100,16 +98,14 @@ hr {
 }
 
 .card-bottom {
-    display: inline;
-    justify-content: center;
-    width: 100%;
-    padding: 1.2rem;
+    
 }
 
 .stats {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 1.4rem;
 }
 
 .stat-social-followers,
