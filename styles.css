@@ -72,18 +72,6 @@ h1 {
     color:hsl(0, 0%, 59%);
 }
 
-h3 {
-    font-size: 1.125rem;
-    color: #2E3349;
-}
-
-p {
-    font-size: 0.625rem;
-    color:hsl(0, 0%, 59%);
-    letter-spacing: 1.5px;
-    margin-top: 0.5rem;
-}
-
 .profile-age {
     color:hsl(0, 0%, 59%);
     font-weight: 400;
@@ -95,6 +83,23 @@ hr {
     border-top: 1px solid #E8E9EC;
     width: 100%;
     margin-top: -1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.stats-number {
+    font-size: 1.125rem;
+    color: #2E3349;
+    font-weight: 700;
+}
+
+.stats-title {
+    font-size: 0.625rem;
+    color:hsl(0, 0%, 59%);
+    letter-spacing: 1.5px;
+    margin-top: 0.5rem;
 }
 
 .stats {
@@ -121,4 +126,3 @@ a {
     color: #2E3349;
     margin-top: 1rem;
 }
-
