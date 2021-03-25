@@ -66,7 +66,7 @@ h1 {
     margin: 0.8rem 0 0.5rem;
 }
 
-h2 {
+.profile-city {
     font-size: 0.875rem;
     font-weight: 400;
     color:hsl(0, 0%, 59%);
@@ -104,9 +104,7 @@ hr {
     margin: 1.4rem;
 }
 
-.stat-social-followers,
-.stat-social-likes,
-.stat-social-photos {
+.stats-social {
     display: flex;
     flex-direction: column;
     justify-content: center;
