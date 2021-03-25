@@ -64,6 +64,8 @@ After receiving feedback on my solution from the Frontend Mentor community, I re
 
 - [MDN docs - aria-hidden](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute) - Following feedback from Frontend Mentor community member, I read this document spefically related to aria-hidden, then expanded my search and found - [W3 WAI ARIA practices] (https://www.w3.org/TR/wai-aria-practices/) for further reading and reference in future.
 
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+- [Free Code Camp - how to keep your footer where it belongs](https://developer.mozilla.org/en-US/docs/Web/CSS/position) - Following another suggestion by a Frontend Mentor member, I moved the footer to sit at the bottom of the page. I'd had issues with getting it to sit correctly, but this article made me realise I needed to simply add relative positioning to the wrapper, and my previous attempts worked.
 
 ## Author
 
