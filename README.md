@@ -56,9 +56,13 @@ As mentioned above, I will continue to develop my note taking - and try to keep 
 
 I plan to learn SASS and also implement naming methodologies to prepare myself for larger projects. I'll also be revisiting some CSS fundamentals in addition to  practicing how to read code better.
 
+After receiving feedback on my solution from the Frontend Mentor community, I realise I need to focus much more on semantic HTML for accessibility, especially on use of h tags only for actual heading and not for style purposes. Additionally, being aware of and using ARIA.
+
 ### Useful resources
 
 - [MDN docs - CSS positions](https://developer.mozilla.org/en-US/docs/Web/CSS/position) - I asked for help in the Frontend Mentor slack ground as I wasn't able to reduce space on the card. Another member pointed out the effect of position: relative and quoted this source. I'm very grateful that he shared this, it helped to clear up my understanding!
+
+- [MDN docs - aria-hidden](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute) - Following feedback from Frontend Mentor community member, I read this document spefically related to aria-hidden, then expanded my search and found - [W3 WAI ARIA practices] (https://www.w3.org/TR/wai-aria-practices/) for further reading and reference in future.
 
 
 ## Author
